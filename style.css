@@ -84,6 +84,7 @@ h1 {
   color: #f05454;
   border-radius: 0 0 6px 6px;
   transition: all 0.2s;
+  flex-wrap: wrap;
 }
 
 .more-btn{
@@ -128,4 +129,26 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+   
+   
+    .container{
+        padding: 5% 2%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    header a{
+        width: 100%;
+        text-align: center;
+    }
+    
+
 }
