@@ -28,17 +28,22 @@ h1 {
 
 .card { 
   color: white;
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  padding: 30px;
+  transition: all 0.2s;
   margin: 16px 0px;
+}
+
+.card .content{
+  padding: 30px;
+  position: relative;
 }
 
 .card.green{
   background-color: #0e918c
 }
 
-.card.green .btn-white{
+.card.green .btn-white, .card.green .more a{
   color: #0e918c
 }
 
@@ -46,7 +51,7 @@ h1 {
     background-color: #f05454;
 }
 
-.card.red .btn-white{
+.card.red .btn-white, .card.red .more a{
   color: #f05454
 }
 
@@ -54,16 +59,50 @@ h1 {
     background-color: #2d6187    
 }
 
-.card.blue .btn-white{
-  color: #2d6187
+.card.blue .btn-white, .card.blue .more a{
+  color: #2d6187;
+
 }
 
 .card.yellow {
   background-color: #ffa62b
 }
 
-.card.yellow .btn-white{
+.card.yellow .btn-white, .card.yellow .more a{
   color: #ffa62b
 }
- 
 
+.more{
+  display: flex;
+  min-height: 30px;
+  max-height: 200px;
+  width: 100%;
+  background-color: white;
+  color: #f05454;
+  border-radius: 0 0 6px 6px;
+  transition: all 0.2s;
+}
+
+.more-btn{
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+  cursor: pointer;
+}
+
+.hidden{
+  height: 0px;
+  overflow: hidden;
+  min-height: 0px;
+  max-height: 0px;
+}
+ 
+.more a {
+  border: 1px solid #d8d8d8;
+  padding: 6px 12px;
+  margin: 6px;
+  border-radius: 6px;
+  display: block;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
