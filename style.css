@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+  font-family: "roboto";
+  color: #1e3245;
+  background-color: rgb(252, 252, 255) 
+}
+
+h1 {
+  font-family: 'poppins';
+  color: #30475e;
+}
+
+.btn-white{
+  color: #30475e;
+  background-color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-family: "poppins";
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.container{
+    padding: 5% 10%;
+}
+
+.card { 
+  color: white;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 30px;
+  margin: 16px 0px;
+}
+
+.card.green{
+  background-color: #0e918c
+}
+
+.card.green .btn-white{
+  color: #0e918c
+}
+
+.card.red{
+    background-color: #f05454;
+}
+
+.card.red .btn-white{
+  color: #f05454
+}
+
+.card.blue{
+    background-color: #2d6187    
+}
+
+.card.blue .btn-white{
+  color: #2d6187
+}
+
+.card.yellow {
+  background-color: #ffa62b
+}
+
+.card.yellow .btn-white{
+  color: #ffa62b
+}
+ 
+
