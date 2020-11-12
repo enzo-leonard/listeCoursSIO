@@ -110,11 +110,18 @@ h1 {
 
 #note{
   color: white;
-  background-color: 0e918c;
+  background-color: #0e918c;
   text-decoration: none;
   padding: 6px 20px;
   border-radius: 4px;
   font-family: "poppins";
   cursor: pointer;
   font-weight: 900;
+  height: 24px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
