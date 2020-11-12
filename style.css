@@ -24,6 +24,8 @@ h1 {
 
 .container{
     padding: 5% 10%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .card { 
