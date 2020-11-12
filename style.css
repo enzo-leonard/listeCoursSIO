@@ -105,4 +105,16 @@ h1 {
   display: block;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  text-decoration: none;
+}
+
+#note{
+  color: white;
+  background-color: 0e918c;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-family: "poppins";
+  cursor: pointer;
+  font-weight: 900;
 }
