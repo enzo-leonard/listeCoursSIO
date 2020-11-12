@@ -36,6 +36,7 @@ h1 {
 
 .card .content{
   padding: 30px;
+  padding-top: 12px;
   position: relative;
 }
 
